@@ -4,50 +4,21 @@
 A smart autonomous wheeled robot powered by **Raspberry Pi 5**, designed for navigation, perception, and remote operation in both indoor and rough outdoor environments.  
 The robot supports **line following, obstacle avoidance, remote control, live streaming**, and includes a **robotic arm for basic interaction tasks such as digging or object manipulation**.
 
----
-
-## 🚀 Features
-
-- 🛤️ Line following using IR sensors  
-- 🚧 Obstacle avoidance using ultrasonic sensors  
-- 🎮 Remote control (manual override mode)  
-- 📡 Live video streaming from onboard camera  
-- 🧠 Raspberry Pi 5-based processing unit  
-- 🌄 Designed for rough and mountainous terrain  
-- 🦾 Robotic arm for basic digging and interaction tasks  
-- 📊 Multi-sensor fusion (IR + ultrasonic + others)
-
----
-
-## 🧰 Hardware Components
-
-- Raspberry Pi 5  
-- Ultrasonic sensor (HC-SR04 or similar)  
-- IR sensors for line tracking  
-- Motor driver (L298N / similar)  
-- DC motors with wheels  
-- Camera module for live streaming  
-- Robotic arm (servo-based)  
-- Chassis (all-terrain / wheel platform)  
-- Power supply (battery pack)
-
----
-
-## 🧠 System Overview
-
-The robot integrates multiple subsystems:
-
-- **Perception Layer** → IR + Ultrasonic + Camera  
-- **Control Layer** → Raspberry Pi 5 processing logic  
-- **Actuation Layer** → Motor driver + wheels + robotic arm  
-- **Communication Layer** → Remote control + live streaming interface  
 
 ---
 
 ## ⚙️ Features in Detail
 
-### 🛤️ Line Following
+###  Line Following
 Uses IR sensors to detect and follow predefined paths.
+<img width="12506" height="7036" alt="01 Sensor Schematic" src="https://github.com/user-attachments/assets/de3edbe5-e57d-430c-b104-040175b4e77f" />
+
+<img width="5924" height="3335" alt="03 Distance Between Sensors" src="https://github.com/user-attachments/assets/ba191471-c624-4c6b-a022-18e5b864eb30" />
+
+<img width="4093" height="2304" alt="02 Sensor Installation" src="https://github.com/user-attachments/assets/203fc32f-926a-4728-afd7-e4e5f354ee55" />
+
+![Uploading 04 Overall Installation.png…]()
+
 
 ### 🚧 Obstacle Avoidance
 Ultrasonic sensor detects obstacles and dynamically changes path.
